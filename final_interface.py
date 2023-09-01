@@ -147,20 +147,20 @@ def check_answer():
             input_area.insert(
                 tkinter.END, check, "start")
 
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #photo2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             input_area.tag_config("start", foreground="red")
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         input_area.insert(
             tkinter.END, check)
@@ -173,20 +173,20 @@ def check_answer():
             check = "CORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #photo2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             input_area.tag_config("start", foreground="red")
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         input_area.insert(
             tkinter.END, check)
@@ -199,20 +199,20 @@ def check_answer():
             check = "CORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #photo2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             input_area.tag_config("start", foreground="red")
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         input_area.insert(
             tkinter.END, check)
@@ -225,20 +225,20 @@ def check_answer():
             check = "CORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             input_area.tag_config("start", foreground="red")
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         delete()
 
@@ -248,20 +248,20 @@ def check_answer():
             check = "CORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #photo2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             input_area.tag_config("start", foreground="red")
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check, "start")
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         input_area.insert(
             tkinter.END, check)
@@ -273,19 +273,19 @@ def check_answer():
             check = "CORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check)
-            photo2 = ImageTk.PhotoImage(file='correct.jpeg')
+            #photo2 = ImageTk.PhotoImage(file='correct.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo2)
+            #input_area.image_create(tkinter.END, image=photo2)
 
         else:
             check = "INCORRECT!!!!!!"
             input_area.insert(
                 tkinter.END, check)
-            photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
+            #photo3 = ImageTk.PhotoImage(file='incorrect.jpeg')
 
             input_area.configure(state="normal")
-            input_area.image_create(tkinter.END, image=photo3)
+            #input_area.image_create(tkinter.END, image=photo3)
 
         input_area.insert(
             tkinter.END, check)
@@ -323,10 +323,10 @@ def main():
                                    background='light blue')
 
     # photo to display at start
-    photo = tkinter.PhotoImage(file='math.png')
+    #photo = tkinter.PhotoImage(file='math.png')
 
     results_display.configure(state="normal")  # allow editing of text
-    results_display.image_create(tkinter.END, image=photo)  # inserts photo
+    #results_display.image_create(tkinter.END, image=photo)  # inserts photo
     # inserts default text
     results_display.insert(
         tkinter.END, "\n \n Welcome! This is a pratice tool for various math skills. Click 'choose category' to begin.")
